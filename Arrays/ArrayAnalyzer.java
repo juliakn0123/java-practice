@@ -4,7 +4,7 @@ public class ArrayAnalyzer {
     public static void main(String[] args) {
         int[] numbers = {12, 5, 27, 8, 16};
         if (numbers.length == 0) {
-            System.out.println("The arrays list is empty");
+            System.out.println("The array list is empty.");
         } else {
             int min = numbers[0];
             int max = numbers[0];
