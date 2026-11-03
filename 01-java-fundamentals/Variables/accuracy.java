@@ -13,6 +13,8 @@ public class accuracy {
             double difference = result1 - result2;
             System.out.printf("The difference is %.99f %n", difference);
 
+            boolean checkResult = result1 - result2 == 0;
+
             BigDecimal oneTenth = BigDecimal.valueOf(0.1);
 
             BigDecimal result3 = oneTenth.multiply(BigDecimal.valueOf(7));
