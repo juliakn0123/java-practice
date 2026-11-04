@@ -30,11 +30,15 @@ class Car {
 
     public void accelerate() {
         speed++;
-        System.out.printf("%s is going %d kilometers per hour.%n", name, speed);
+        showSpeed();
     }
 
     public void brake() {
         --speed;
-        System.out.printf("%s is going %d kilometers per hour.%n", name, speed);
+        showSpeed();
+    }
+
+    private void showSpeed() {
+        System.out.printf("%s is going %d miles per hour.%n", name, speed);
     }
 }
